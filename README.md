@@ -39,6 +39,7 @@ The log files in the dataset you'll be working with are partitioned by year and 
 
 **etl.py**
 Load data in JSON files from S3, process and save in parquet files on S3 or workspace 
+![Visualization of ETL](/schema.png)
 
 4. Specify cluster and run python scripts
 a. Populate dl.cfg with AWS access key id and AWS secret access key
